@@ -7,7 +7,7 @@
 [![npm version](https://img.shields.io/npm/v/google-typeahead)](https://www.npmjs.com/package/google-typeahead)
 [![npm size](https://img.shields.io/bundlephobia/min/google-typeahead)](https://github.com/matthewgferrari/google-typeahead/blob/main/src)
 </div>
- <div align = "center"><img src = "https://matthewgferrari.github.io/google-typeahead/example/demo.gif"/></div>
+ <div align = "center"><img src = "https://raw.githubusercontent.com/matthewgferrari/google-typeahead/main/example/demo.gif"/></div>
 
 ## Demo
 [Live demo and sandbox](https://matthewgferrari.github.io/google-typeahead/example/build/)
@@ -40,12 +40,12 @@ value| string| required| N/A| Value in typeahead input field
 setValue| callback | required| N/A | Callback to store value
 className|string|optional|N/A| Classname applied to container
 canCreate|bool|optional|false|Can select when no matching option exists
-zIndex|string\| number|optional|1|zIndex of dropdown menu
+zIndex|string \| number|optional|1|zIndex of dropdown menu
 isCaseSensitive| bool|optional|false|Case sensitivity of typeahead 
 defaultOpen| bool|optional|false|Whether typeahead starts out open
 limit|int|optional |N/A| Max amount of options displayed in list at a time
 id|string |options === array[object]| N/A| If options are objects, the key in question 
-emptyLabel|string \|Rendered Component|optional |"No Items Found"| Label if no item is found
+emptyLabel|string \| Rendered Component|optional |"No Items Found"| Label if no item is found
 LeftSideComponent|Nonrendered component|optional |N/A| Optional component on left of input
 RightSideComponent|Nonrendered component|optional |N/A| Optional component on right of input
 
