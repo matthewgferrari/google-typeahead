@@ -1,0 +1,43 @@
+{
+  "name": "google-typeahead",
+  "version": "1.0.1",
+  "description": "A Google Search styled typeahead for React",
+  "main": "index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "scripts": {
+    "build": "rm -rf dist && mkdir dist &&  babel src/. -d dist --copy-files"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matthewgferrari/google-typeahead.git"
+  },
+  "keywords": [
+    "Typeahead",
+    "input",
+    "Google",
+    "Material-UI",
+    "React",
+    "Dropdown"
+  ],
+  "author": "Matthew Ferrari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/matthewgferrari/google-typeahead/issues"
+  },
+  "homepage": "https://github.com/matthewgferrari/google-typeahead#readme",
+  "dependencies": {
+    "prop-types": "^15.7.2",
+    "react": "^17.0.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-react": "^7.12.10",
+    "eslint": "^7.16.0",
+    "eslint-plugin-react": "^7.21.5"
+  }
+}

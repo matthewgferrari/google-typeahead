@@ -1,0 +1,44 @@
+.google-typeahead-base {
+  color: rgba(0, 0, 0, 0.87);
+  transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+  background-color: #fff;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  position: relative;
+}
+.google-typeahead-item {
+  width: 100%;
+  display: flex;
+  position: relative;
+  box-sizing: border-box;
+  text-align: left;
+  align-items: center;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  justify-content: flex-start;
+  text-decoration: none;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.google-typeahead-item:hover {
+  background-color: #eeeeee;
+}
+.google-typeahead-item.google-typeahead-selected {
+  background-color: #cecece;
+}
+.google-typeahead-text {
+  flex: 1 1 auto;
+  min-width: 0;
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+.google-typeahead-input {
+  height: 44px;
+  background-color: transparent;
+  width: 100%;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+.google-typeahead-text{
+    font-size: 16px;
+}
